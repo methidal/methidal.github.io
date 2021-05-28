@@ -1,5 +1,8 @@
 p {
-    background-color:lightpink;
+    background-color: lightpink;
     font-family: monospace;
     color: indianred;
+}
+body {
+   background-color: brown; 
 }
