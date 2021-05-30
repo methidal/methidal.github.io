@@ -12,6 +12,9 @@ body {
     color: tomato;
 }
 .impossible_things{
-    color: seagreen;
+    color: orange;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.trees{
+    color: olive;
 }
