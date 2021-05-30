@@ -2,9 +2,9 @@ body {
     font-family: monospace;
     color: rgb(74, 0, 248);
     font-size:larger;
-    margin-top: 150px;
-    margin-bottom: 150px;
-    margin-right: 150px;
-    margin-left: 150px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20%;
+    margin-left: 20%;
 }
 
