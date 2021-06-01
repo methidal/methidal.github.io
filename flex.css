@@ -5,6 +5,7 @@
   .flex_item_left {
     width: 200px;
     padding-right: 10px;
+    float: left;
   }
   .flex_item_right {
     flex: 1;   
