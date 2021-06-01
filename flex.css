@@ -4,13 +4,10 @@
   }
   .flex_item_left {
     width: 200px;
-    background: lightgreen;
     padding-right: 10px;
   }
   .flex_item_right {
-    flex: 1;
-    background: lightblue;
-   
+    flex: 1;   
   }
 
   .poem_body {
