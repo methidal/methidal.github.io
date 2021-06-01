@@ -1,0 +1,12 @@
+.flex_container {
+    display: flex;
+    width: 100%;
+  }
+  .flex_item_left {
+    width: 200px;
+    background: lightgreen;
+  }
+  .flex_item_right {
+    flex: 1;
+    background: lightblue;
+  }
