@@ -9,4 +9,8 @@
   .flex_item_right {
     flex: 1;
     background: lightblue;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10%;
+    margin-left: 10%;
   }
