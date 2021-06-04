@@ -140,6 +140,7 @@
         </div>
         <div class="candy">
             <a name="candy"></a>
+            <img src="images/candy.jpg">
             <h3>Candy</h3>
             <p>
                 What’s this? It’s candy!<br>
@@ -234,11 +235,11 @@
                 var hours = date.getHours();
                 var minutes = date.getMinutes();
                 var seconds = date.getSeconds();
-                var time = hours + ":" + minutes + ":" + seconds;
+                var timeString = hours + ":" + minutes + ":" + seconds;
+                document.getElementById("clock").innerHTML = timeString;
                 console.log(time); 
             }
-            getCurrentTime();
-            setTimeout(getCurrentTime, 1);
+           setInterval(getCurrentTime, 1000);
         </script>
     </body>
 </html>
