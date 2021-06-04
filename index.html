@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <a href="about.html">About Me</a>
-
+    <head> 
         <link rel="stylesheet" href="styles.css" type="text/css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Poems for ELA lovers</title>
 
     </head>
     <body>
+        <a href="about.html">About Me</a>
+        <div id="clock">
+        </div>
         <hr>
         <div>
             <h2>Poems for ELA lovers</h2>
@@ -224,9 +225,19 @@
                 But I just wanna join the gang and shout<br>
                  “Hey ! Black lives matter, you know!” <br>
             </p>
-            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             <a href="#toc">Back to Table of Contents</a>
             <hr>
         </div>
+        <script type="text/javascript">
+            function getCurrentTime() {
+                var date = new Date();
+                var hours = date.getHours();
+                var minutes = date.getMinutes();
+                var seconds = date.getSeconds();
+                var time = hours + ":" + minutes + ":" + seconds;
+                console.log(time); 
+            }
+            getCurrentTime();
+        </script>
     </body>
 </html>
